@@ -8,5 +8,7 @@ public class Main {
 
         Consumer<String> printConsumer = name -> System.out.println(name);
         names.forEach(printConsumer);
+
+        //names.forEach(name -> System.out.println(name));
     }
 }
